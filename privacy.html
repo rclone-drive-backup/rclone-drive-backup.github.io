@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy information for a personal rclone setup that backs up files to Google Drive.">
+  <title>Privacy Policy | Personal Google Drive Backup</title>
+  <style>
+    :root { color-scheme: light; --ink: #172033; --muted: #596579; --line: #dce3ee; --blue: #2457d6; --wash: #f4f7fc; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--wash); color: var(--ink); font: 16px/1.7 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { width: min(760px, calc(100% - 32px)); margin: 7vh auto; }
+    article { background: #fff; border: 1px solid var(--line); border-radius: 18px; padding: clamp(26px, 6vw, 54px); box-shadow: 0 18px 55px rgba(27, 45, 82, .07); }
+    .eyebrow { margin: 0 0 12px; color: var(--blue); font-size: .8rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+    h1 { margin: 0 0 10px; font-size: clamp(2rem, 6vw, 3rem); line-height: 1.1; letter-spacing: -.04em; }
+    .updated { margin: 0 0 28px; color: var(--muted); }
+    h2 { margin: 28px 0 8px; font-size: 1.15rem; }
+    p { margin: 0 0 14px; }
+    a { color: var(--blue); text-underline-offset: 3px; }
+    a:focus-visible { outline: 3px solid #91b0ff; outline-offset: 3px; border-radius: 3px; }
+    .back { margin-top: 32px; padding-top: 20px; border-top: 1px solid var(--line); }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <p class="eyebrow">Personal-use application</p>
+      <h1>Privacy Policy</h1>
+      <p class="updated">Personal Google Drive Backup · Last updated October 8, 2026</p>
+
+      <p>This is a personal rclone setup used by its owner to back up files to the owner's Google Drive. It is not a public service and is not intended for use by other people.</p>
+
+      <h2>Google data the setup accesses</h2>
+      <p>This setup requests Google's <code>drive</code> scope for rclone. That scope can grant rclone broad access to files in the owner's Drive, not only the backup destination. Rclone uses that access to perform the backup or synchronization operations configured by its owner.</p>
+
+      <h2>How data is used and stored</h2>
+      <p>Rclone processes files on the computer or server where it is installed and transfers them to the owner's Google Drive. The files remain on the source device and in Google Drive according to the owner's backup and synchronization settings. Rclone's authorization token is kept in its configuration on the device or server running rclone. This website does not receive or store files, Google Drive contents, or authorization tokens.</p>
+
+      <h2>Sharing</h2>
+      <p>Aside from transferring files to Google Drive as required for the backup, this personal setup does not intentionally share Google user data with other third parties. Google handles the Drive account and files under Google's own services and policies.</p>
+
+      <h2>Retention and revoking access</h2>
+      <p>Backup copies remain in Google Drive until the owner removes them or changes the configured backup or synchronization behavior. The owner can revoke the application's Google access from the Google Account security settings and can remove rclone's local token from its configuration.</p>
+
+      <h2>Contact</h2>
+      <p>Questions about this personal application can be sent to the support email shown on its Google authorization screen.</p>
+
+      <p class="back"><a href="index.html">Back to Personal Google Drive Backup</a></p>
+    </article>
+  </main>
+</body>
+</html>
